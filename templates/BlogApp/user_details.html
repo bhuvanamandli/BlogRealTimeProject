@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends 'BlogApp/base.html' %}
+{% block content %}
+     <div id="div8">
+        <h1>User-Details!!!</h1>
+        <hr/>
+        <ul>
+            <li>Id: {{ user.id }}</li>
+            <li>FirstName: {{ user.first_name }}</li>
+            <li>LastName: {{ user.last_name }}</li>
+            <li>Email: {{ user.email}}</li>
+             <li>Username: {{ user.username }}</li>
+        </ul>
+         <a href="/tag/"><button>click to Go-Back</button></a>
+    </div>
+{% endblock %}
